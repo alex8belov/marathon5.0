@@ -7,11 +7,26 @@
 }
 body {
     font-family: "Montserrat";
+    color:#533738;
+    background: #EFE6E4;
 }
 a {
     text-decoration: none;
+    color:#533738;
 }
 
 .logo {
     text-transform: uppercase;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+.page-title {
+    font-size: 50px;
+    line-height: 62px;
+}
+.section-title {
+    font-size: 40px;
+    line-height: 50px;
 }
