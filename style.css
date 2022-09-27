@@ -5,6 +5,10 @@
     src: local("Montserrat"),
         url("fonts/Montserrat/Montserrat-Regular.ttf");
 }
+p {
+    padding: 0;
+    margin: 0;
+}
 body {
     margin: 0;
     font-family: "Montserrat";
@@ -76,7 +80,7 @@ a {
     padding: 25px 0;
     width: 309px;
 }
-.reauest-btn {
+.request-btn {
     margin-top: 21px;
 }
 .section-title {
@@ -85,7 +89,32 @@ a {
     line-height: 50px;
     text-transform: uppercase;
 }
+.section-about {
+    padding-top: 65px;
+}
+.about-title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.section-about__main {
+    margin-top: 40px;
+    display: flex;
+}
+.section-about__text {
+    margin-left: 65px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 528px;
+}
+.section-about__p2 {
+    margin-top: 
+}
 .scores {
+    margin-top: 21px;
     list-style-type: none;
     background-color: #8D7370;
     color: #FFFFFF;
