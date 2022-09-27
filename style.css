@@ -13,7 +13,7 @@ body {
     width: 1400px;
 }
 .bg-first-page {
-    background: url("/img/bg-1.jpg");
+    background: url("./img/bg-1.jpg");
     height: 715px;
 }
 .header {
@@ -73,7 +73,7 @@ a {
     line-height: 24px;
     background-color: #CC8B86;
     text-align: center;
-    padding: 25px 67px;
+    padding: 25px 0;
     width: 309px;
 }
 .reauest-btn {
