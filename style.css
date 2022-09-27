@@ -198,6 +198,29 @@ a {
 }
 .section-how-we-work {
     background: #E2C4BA;
+    padding-bottom: 80px;
+}
+.how-we-work__list {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.how-we-work__item {
+    display: inline-block;
+    text-align: center;
+    width: 285px;
+}
+.item-number {
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 70px;
+    color: #FFFFFF;
+    background: #8D7370;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
 }
 .request {
     background-color: #8D7370;
