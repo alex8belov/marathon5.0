@@ -222,7 +222,24 @@ a {
     border-radius: 50%;
     margin: 0 auto 20px auto;
 }
+.section-review {
+    padding: 65px 0;
+}
 .request {
     background-color: #8D7370;
     color: #FFFFFF;
+}
+.footer {
+    padding: 37px 0;
+}
+.footer-phone {
+    display: inline-block;
+}
+.footer-address {
+    display: inline-block;
+    margin-left: 42px;
+}
+.footer-founder {
+    display: inline-block;
+    margin-left: 379px;
 }
