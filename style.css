@@ -23,7 +23,7 @@ body {
 .header {
     padding-top: 36px;    
 }
-.wrapper-nav {
+.wrapper-1200 {
     width: 1200px;
     margin: 0 auto;
 }
@@ -110,14 +110,45 @@ a {
     line-height: 30px;
     width: 528px;
 }
-.section-about__p2 {
-    margin-top: 
-}
 .scores {
+    display: flex;
+    justify-content: center;
     margin-top: 21px;
     list-style-type: none;
     background-color: #8D7370;
     color: #FFFFFF;
+    padding: 85px 180px 81px 180px;
+}
+.score-item {
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+}
+.score-item:not(:first-child) {
+    margin-left: 269px;
+}
+.score-number {
+    text-align: center;
+    display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+}
+.gallery-portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    gap: 30px 20px;
+}
+.gallery-card {
+    width: 488px;
+    height: 451px;
+    background: url("./files/bedroom.jpg");
 }
 .request {
     background-color: #8D7370;
