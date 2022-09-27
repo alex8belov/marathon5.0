@@ -5,7 +5,7 @@
     src: local("Montserrat"),
         url("fonts/Montserrat/Montserrat-Regular.ttf");
 }
-p {
+p, h2 {
     padding: 0;
     margin: 0;
 }
@@ -140,15 +140,64 @@ a {
     font-size: 50px;
     line-height: 62px;
 }
+.section-gallery {
+    padding: 65px 0 65px 0;
+}
 .gallery-portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 1fr);
     gap: 30px 20px;
 }
 .gallery-card {
-    width: 488px;
-    height: 451px;
+    height: 451px;  
+}
+.bedroom {
     background: url("./files/bedroom.jpg");
+    width: 488px;
+}
+.kitchen {
+    background: url("./files/kitchen.jpg");
+    width: 692px;
+}
+.living-room {
+    background: url("./files/living-room.jpg");
+    width: 692px;    
+}
+.bathroom {
+    background: url("./files/bathroom.jpg");
+    width: 488px;    
+}
+.gallery-more-link {
+    display: block;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    width: 294px;
+    margin: 40px auto 0 auto;
+}
+.section-team {
+    padding: 50px 0 35px 0;
+    background: #E2C4BA;
+}
+.team-title {
+    text-align: center;
+}
+.team-group {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.team-person {
+    width: 320px;
+}
+.team-person__about {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.section-how-we-work {
+    background: #E2C4BA;
 }
 .request {
     background-color: #8D7370;
