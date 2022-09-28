@@ -144,14 +144,35 @@ a {
     padding: 65px 0 65px 0;
 }
 .gallery-portfolio {
-    display: grid;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
     gap: 30px 20px;
+    color: #fff;
 }
-.gallery-card {
-    height: 451px;  
+
+.gallery-card__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    width: 270px;
+    margin: 0 auto;
+    transform: translateY(400px);
+}
+.gallery-card__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 10px;
+    transform: translateY(400px);
 }
 .bedroom {
-    background: url("./files/bedroom.jpg");
+    background-image: url("./files/bedroom.jpg");
     width: 488px;
 }
 .kitchen {
@@ -165,6 +186,17 @@ a {
 .bathroom {
     background: url("./files/bathroom.jpg");
     width: 488px;    
+}
+.gallery-card {
+    box-sizing: border-box;
+    height: 451px;
+    padding: 86px 35px 122px 35px;
+    overflow: hidden; 
+}
+.gallery-card:hover > .gallery-card__title, .gallery-card:hover > .gallery-card__text {
+    background-color: rgba(0, 0, 0, 0.6);
+    transform: translateY(0px);
+    transition: 0.5s;
 }
 .gallery-more-link {
     display: block;
