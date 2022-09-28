@@ -80,6 +80,9 @@ a {
     padding: 25px 0;
     width: 309px;
 }
+.button:hover {
+    cursor: pointer;
+}
 .request-btn {
     margin-top: 21px;
 }
@@ -312,6 +315,60 @@ a {
 .request {
     background-color: #8D7370;
     color: #FFFFFF;
+}
+.request-block {
+    padding-left: 182px;
+    display: flex;
+}
+.request-left-column {
+    padding-top: 50px;
+    display: inline-block;
+    width: 508px;
+}
+.request-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.request-text {
+    margin-top: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+input {
+    margin-top: 44px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    width: 100%;
+    background: none;
+}
+input::placeholder {
+    color: #fff;
+  }
+input:focus {
+    outline: none;
+}
+.submit-btn {
+    margin-top: 31px;
+    border: none;
+}
+.map {
+    margin-left: 20px;
 }
 .footer {
     padding: 37px 0;
