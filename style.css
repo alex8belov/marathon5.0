@@ -5,7 +5,7 @@
     src: local("Montserrat"),
         url("fonts/Montserrat/Montserrat-Regular.ttf");
 }
-p, h2 {
+p, h2, blockquote {
     padding: 0;
     margin: 0;
 }
@@ -256,6 +256,58 @@ a {
 }
 .section-review {
     padding: 65px 0;
+}
+.review-title {
+    text-align: center;
+}
+.testimonials-block {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: none;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.left-btn {
+    background: url("./img/Arrow2.svg"), #CC8B86;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.right-btn {
+    background: url("./img/Arrow3.svg"), #CC8B86;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.testimonials {
+    width: 407px;
+}
+.testimonials-photo {
+    width: 407px;    
+}
+.testimonials-photo__item:first-child {
+    margin-bottom: 24px;
+}
+.testimonials-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.testimonials-author {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
 }
 .request {
     background-color: #8D7370;
